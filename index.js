@@ -30,7 +30,7 @@ const newAry = head.concat(branch, tail);
 const svnURL = new url.URL(newAry.join('/'), 'https://github.com/').toString();
 
 console.log(`Downloading ${svnURL}...`);
-exec(`svn checkout ${svnURL}`, (err, stdout) => {
+exec(`svn export ${svnURL}`, (err, stdout) => {
 	if (err) throw err;
 
 	console.log(stdout);
