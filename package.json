@@ -1,6 +1,6 @@
 {
   "name": "gh-dl",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "download folder from github without cloning the whole repository",
   "main": "index.js",
   "author": "email@hkalexling.com",
